@@ -16,27 +16,25 @@ const Projects = () => {
       </div>
       <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCart
-          title="Chatting app"
-          desc=" I'm used this projects HTML, tailwind css, React, React router dom, Redux-toolkit, Firebase, vercel"
-          src={"/projects/chattingApp.jpg"}
-          gitHubLink={"https://github.com/mamunurroshid90/chatting-app"}
-          liveLink={"https://chatting-app-rho-two.vercel.app/"}
+          title="Sports Exchange"
+          desc="HTML, CSS, JavaScript, Tailwind css, Vue.Js, Nuxt.js, swiper js, vercel"
+          src={"/projects/cricExchange.png"}
+          gitHubLink={"https://github.com/mamunurroshid90/cricExchange"}
+          liveLink={"https://cric-exchange-eta.vercel.app/"}
         />
         <ProjectsCart
-          title="Add to note app"
-          desc=" I'm used this projects HTML, tailwind css, React, React router dom, Redux-toolkit, netlify"
-          src={"/projects/add to notes.png"}
-          gitHubLink={"https://github.com/mamunurroshid90/add-to-note-app"}
-          liveLink={"https://add-to-note-app.netlify.app/"}
+          title="E-Commerce Project"
+          desc="HTML, CSS, JavaScript, Tailwind css, React.Js, Redux, swiper js, vercel"
+          src={"/projects/eCommerce.png"}
+          gitHubLink={"https://github.com/mamunurroshid90/eCommerce-project"}
+          liveLink={"https://e-commerce-project-vert-ten.vercel.app/"}
         />
         <ProjectsCart
-          title="Nexcent app"
-          desc="I'm used this projects HTML, tailwind css, React, vercel"
-          src={"/projects/nexcent.png"}
-          gitHubLink={
-            "https://github.com/mamunurroshid90/nexcent-react-project"
-          }
-          liveLink={"https://nexcent-react-project.vercel.app/"}
+          title="Foodies Project"
+          desc="HTML, CSS, JavaScript, AOS"
+          src={"/projects/foodies.png"}
+          gitHubLink={"https://github.com/mamunurroshid90/foodies-bootstrap"}
+          liveLink={"https://mamunurroshid90.github.io/foodies-bootstrap/"}
         />
         <ProjectsCart
           title="E-commerce Project ( Running... )"

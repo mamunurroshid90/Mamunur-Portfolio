@@ -124,7 +124,6 @@ const LeftBanner = () => {
         >
           <a
             href={Resume}
-            // download="Resume"
             target="_blank"
             rel="noopener noreferrer"
           >

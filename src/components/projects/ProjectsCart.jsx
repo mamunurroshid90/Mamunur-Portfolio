@@ -30,7 +30,7 @@ const ProjectsCart = ({ title, desc, src, gitHubLink, liveLink }) => {
           </div>
         </div>
         <div>
-          <p className=" text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
+          <p className=" text-xl font-bold tracking-wide mt-3 hover:text-gray-100 duration-300">
             {desc}
           </p>
         </div>
