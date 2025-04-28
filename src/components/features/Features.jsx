@@ -6,6 +6,7 @@ import { BsFiletypePsd } from "react-icons/bs";
 import { FiFigma } from "react-icons/fi";
 import { AiOutlineAntDesign } from "react-icons/ai";
 import { FaCode } from "react-icons/fa";
+import { GrWordpress } from "react-icons/gr";
 
 const Features = () => {
   return (
@@ -34,6 +35,11 @@ const Features = () => {
           title="PSD to HTML"
           desc="PSD to HTML conversion transforms Photoshop design files into HTML code, enabling web pages with structured, styled, and interactive content."
           icon={<BsFiletypePsd />}
+        />
+        <Cart
+          title="WordPress Them Customization"
+          desc="WordPress theme customization involves modifying existing themes to match specific design requirements, functionality needs, and brand identity."
+          icon={<GrWordpress />}
         />
       </div>
     </section>
