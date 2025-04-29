@@ -30,7 +30,7 @@ const Education = () => {
             <div className=" flex flex-col gap-10">
               <ResumeCart
                 title="Higher Secondary Certificate."
-                subTitle="TMKM (2014 - 16)"
+                subTitle="Tamirul Millat Kamil Madrasha (2014 - 16)"
                 result="4.86/5"
                 desc="HSC (Higher School Certificate) is a secondary school qualification in Dhaka, assessing students' academic performance for college entrance and further education opportunities."
               />
@@ -40,7 +40,7 @@ const Education = () => {
             <div className=" flex flex-col gap-10">
               <ResumeCart
                 title="Secondary School Certificate."
-                subTitle="TIKM (2014)"
+                subTitle="Toomchar Islamia Kamil Madrasha (2014)"
                 result="5.00/5"
                 desc="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
               />
@@ -48,7 +48,7 @@ const Education = () => {
             <div className=" flex flex-col gap-10">
               <ResumeCart
                 title="Junior Dakhil Certificate."
-                subTitle="TIKM (2011)"
+                subTitle="Toomchar Islamia Kamil Madrasha (2011)"
                 result="5.00/5"
                 desc="This is an examination conducted for students in Islamic religious schools (madrasahs) in Bangladesh, typically at the end of grade 8."
               />

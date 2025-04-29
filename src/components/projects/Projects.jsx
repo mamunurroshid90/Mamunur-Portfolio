@@ -37,31 +37,25 @@ const Projects = () => {
           liveLink={"https://mamunurroshid90.github.io/foodies-bootstrap/"}
         />
         <ProjectsCart
-          title="E-commerce Project ( Running... )"
-          desc=" I'm used this projects react, router-dom, redux"
-          src={"/projects/e-commerce-projects.png"}
-          gitHubLink={"https://github.com/mamunurroshid90/eCommerce-project"}
-          liveLink={"https://e-commerce-project-vert-ten.vercel.app/"}
+          title="Portfolio Template"
+          desc=" HTML, CSS, JavaScript, jQuery"
+          src={"/projects/portfolio-temp.png"}
+          gitHubLink={"https://github.com/mamunurroshid90/jQuery-project"}
+          liveLink={"https://mamunurroshid90.github.io/jQuery-project/"}
         />
         <ProjectsCart
-          title=" Search image engine"
-          desc="I'm used this projects HTML, css, javaScript"
-          src={"/projects/search image engine.png"}
-          gitHubLink={
-            "https://github.com/mamunurroshid90/image-search-engine-js"
-          }
-          liveLink={"https://mamunurroshid90.github.io/image-search-engine-js/"}
+          title="Langing Page"
+          desc="HTML, CSS, JavaScript"
+          src={"/projects/landing-page.png"}
+          gitHubLink={"https://github.com/mamunurroshid90/blinto-assignment"}
+          liveLink={"https://mamunurroshid90.github.io/blinto-assignment/"}
         />
         <ProjectsCart
-          title="Upland project"
-          desc="I'm used this projects HTML, css, bootstrap, javaScript"
-          src={"/projects/upland.png"}
-          gitHubLink={
-            "https://github.com/mamunurroshid90/upland-responsive-project"
-          }
-          liveLink={
-            "https://mamunurroshid90.github.io/upland-responsive-project/"
-          }
+          title="Todo App"
+          desc="HTML,  Tailwind css, JavaScript, React.Js, Redux, React Router, local storage, netlify"
+          src={"/projects/to-do-app.png"}
+          gitHubLink={"https://github.com/mamunurroshid90/add-to-note-app"}
+          liveLink={"https://add-to-note-app.netlify.app/"}
         />
       </div>
     </section>
