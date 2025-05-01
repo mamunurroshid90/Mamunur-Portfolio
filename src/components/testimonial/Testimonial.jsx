@@ -115,7 +115,11 @@ const Testimonial = () => {
                 </div>
               </div>
               <div className=" w-full lgl:w-[60%] h-full flex flex-col justify-between">
-                <img className=" w-20 lgl:w-32" src={quote} alt="quote" />
+                <img
+                  className=" hidden w-0 lg:block lgl:w-32"
+                  src={quote}
+                  alt="quote"
+                />
                 <div className=" w-full h-[70%] py-8 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne rounded-lg p-4 lgl:p-8 flex flex-col justify-between gap-4 lgl:gap-8">
                   <div className=" flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
@@ -170,7 +174,11 @@ const Testimonial = () => {
                 </div>
               </div>
               <div className=" w-full lgl:w-[60%] h-full flex flex-col justify-between">
-                <img className=" w-20 lgl:w-32" src={quote} alt="quote" />
+                <img
+                  className=" hidden w-0 lg:block lgl:w-32"
+                  src={quote}
+                  alt="quote"
+                />
                 <div className=" w-full h-[70%] py-8 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne rounded-lg p-4 lgl:p-8 flex flex-col justify-between gap-4 lgl:gap-8">
                   <div className=" flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
@@ -225,7 +233,11 @@ const Testimonial = () => {
                 </div>
               </div>
               <div className=" w-full lgl:w-[60%] h-full flex flex-col justify-between">
-                <img className=" w-20 lgl:w-32" src={quote} alt="quote" />
+                <img
+                  className=" hidden w-0 lg:block lgl:w-32"
+                  src={quote}
+                  alt="quote"
+                />
                 <div className=" w-full h-[70%] py-8 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne rounded-lg p-4 lgl:p-8 flex flex-col justify-between gap-4 lgl:gap-8">
                   <div className=" flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
