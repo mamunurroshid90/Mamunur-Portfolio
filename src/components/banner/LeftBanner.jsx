@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import { FaFacebookF, FaFigma, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaWordpressSimple } from "react-icons/fa";
@@ -10,7 +10,8 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { RiPhpFill } from "react-icons/ri";
 import { RiFirebaseLine } from "react-icons/ri";
-import Resume from "../../assets/images/Mamunur - Frontend - Developer.pdf";
+import Resume from "../../assets/images/Mamunur-Front-end-Developer.pdf";
+import { RiSupabaseFill } from "react-icons/ri";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -112,6 +113,9 @@ const LeftBanner = () => {
             <span className="bannerIcon">
               <RiFirebaseLine />
             </span>
+            <span className="bannerIcon">
+              <RiSupabaseFill />
+            </span>
           </div>
         </div>
       </div>
@@ -122,11 +126,7 @@ const LeftBanner = () => {
                  duration-300 ease-in-out focus:outline-none focus:ring-2 
                  focus:ring-blue-400 focus:ring-offset-2"
         >
-          <a
-            href={Resume}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={Resume} target="_blank" rel="noopener noreferrer">
             Download CV
           </a>
         </button>

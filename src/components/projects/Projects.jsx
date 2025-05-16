@@ -30,6 +30,15 @@ const Projects = () => {
           liveLink={"https://e-commerce-project-vert-ten.vercel.app/"}
         />
         <ProjectsCart
+          title="Supabase Chatting App"
+          desc="JavaScript, React.Js, Supabase, Google Cloud Storage, Tailwind css, vercel"
+          src={"/projects/supabase-chat-app.jpg"}
+          gitHubLink={
+            "https://github.com/mamunurroshid90/supabase-chatting-app"
+          }
+          liveLink={"https://supabase-chatting-app.vercel.app/"}
+        />
+        <ProjectsCart
           title="Foodies Project"
           desc="HTML, CSS, JavaScript, AOS"
           src={"/projects/foodies.png"}
@@ -42,13 +51,6 @@ const Projects = () => {
           src={"/projects/portfolio-temp.png"}
           gitHubLink={"https://github.com/mamunurroshid90/jQuery-project"}
           liveLink={"https://mamunurroshid90.github.io/jQuery-project/"}
-        />
-        <ProjectsCart
-          title="Langing Page"
-          desc="HTML, CSS, JavaScript"
-          src={"/projects/landing-page.png"}
-          gitHubLink={"https://github.com/mamunurroshid90/blinto-assignment"}
-          liveLink={"https://mamunurroshid90.github.io/blinto-assignment/"}
         />
         <ProjectsCart
           title="Todo App"
